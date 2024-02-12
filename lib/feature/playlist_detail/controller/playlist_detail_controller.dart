@@ -14,11 +14,6 @@ class PlaylistDetailViewModel extends ChangeNotifier {
     await getPlaylist();
   }
 
-  // goToSearch() {
-  //   var route = MaterialPageRoute(builder: (context) => const SearchPage());
-  //   Navigator.push(context, route);
-  // }
-
   getPlaylist() async {
     try {
       var source = await SpotifyAPI().getPlaylists(playlistId);

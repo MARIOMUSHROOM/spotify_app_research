@@ -14,11 +14,6 @@ class AlbumDetailViewModel extends ChangeNotifier {
     await getAlbum();
   }
 
-  // goToSearch() {
-  //   var route = MaterialPageRoute(builder: (context) => const SearchPage());
-  //   Navigator.push(context, route);
-  // }
-
   getAlbum() async {
     try {
       var source = await SpotifyAPI().getAlbum(albumId);

@@ -2,7 +2,7 @@ import "dart:ui";
 
 import "package:flutter/material.dart";
 import "package:provider/provider.dart";
-import "package:spotify_skinx/feature/album_detail/view_model/album_detail_view_model.dart";
+import 'package:spotify_skinx/feature/album_detail/controller/album_detail_controller.dart';
 import 'package:spotify_skinx/models/album_model.dart' as models;
 import "package:spotify_skinx/setting/theme.dart";
 import "package:spotify_skinx/widgets/sizer.dart";
@@ -186,18 +186,11 @@ class _AlbumDetailPageState extends State<AlbumDetailPage> {
                                       ),
                                       Flexible(
                                         child: Text(
-                                          "• ${only.durationMs ?? ""} •",
+                                          "• ${only.durationMs ?? ""} ",
                                           style: const TextStyle(
                                               color: primaryColor),
                                         ),
                                       ),
-                                      // Flexible(
-                                      //   child: Text(
-                                      //     "${only. ?? ""}",
-                                      //     style: const TextStyle(
-                                      //         color: primaryColor),
-                                      //   ),
-                                      // ),
                                     ],
                                   ),
                                 ],

@@ -1,6 +1,6 @@
 import "package:flutter/material.dart";
 import "package:provider/provider.dart";
-import "package:spotify_skinx/feature/search/view_model/search_view_model.dart";
+import 'package:spotify_skinx/feature/search/controller/search_view_controller.dart';
 import "package:spotify_skinx/models/search_playlist_model.dart" as models;
 import "package:spotify_skinx/setting/theme.dart";
 import "package:spotify_skinx/widgets/sizer.dart";

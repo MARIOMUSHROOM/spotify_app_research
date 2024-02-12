@@ -1,6 +1,6 @@
 import "package:flutter/material.dart";
 import "package:provider/provider.dart";
-import "package:spotify_skinx/feature/my_playlist/view_model/my_play_list_view_model.dart";
+import 'package:spotify_skinx/feature/my_playlist/controller/my_play_list_controller.dart';
 import 'package:spotify_skinx/models/my_playlist_model.dart' as models;
 import "package:spotify_skinx/setting/theme.dart";
 
